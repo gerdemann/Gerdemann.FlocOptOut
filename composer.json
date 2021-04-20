@@ -1,0 +1,19 @@
+{
+    "description": "Floc OptOut for Flow and Neos",
+    "type": "neos-package",
+    "name": "gerdemann/floc-opt-out",
+    "license": "MIT",
+    "require": {
+        "neos/flow": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gerdemann\\FlocOptOut\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Gerdemann.FlocOptOut"
+        }
+    }
+}

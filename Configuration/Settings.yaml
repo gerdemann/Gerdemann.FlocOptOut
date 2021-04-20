@@ -1,0 +1,7 @@
+Neos:
+  Flow:
+    http:
+      middlewares:
+        'FlocOptOut':
+          middleware: 'Gerdemann\FlocOptOut\Middleware\FlocOptOut'
+          position: start
